@@ -1,11 +1,103 @@
-# generated files
-target/
-generated/
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>أمن الشبكات - كشف الثغرات وإغلاقها</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .services {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .service-item {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+        @media (min-width: 768px) {
+            .services {
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            .service-item {
+                flex: 1 1 calc(50% - 30px);
+            }
+        }
+    </style>
+</head>
+<body>
 
-# dependencies
-Dependencies.toml
+<header>
+    <h1>أمن الشبكات</h1>
+    <p>كشف الثغرات وإغلاقها لحماية شبكتك</p>
+</header>
 
-# config files
-Config.toml
-# the config files used for testing, Uncomment the following line if you want to commit the test config files
-#!**/tests/Config.toml
+<section>
+    <h2>خدماتنا</h2>
+    <div class="services">
+        <div class="service-item">
+            <h3>فحص الثغرات الأمنية</h3>
+            <p>نقوم بفحص شبكتك للكشف عن الثغرات الأمنية المحتملة وتقديم تقارير تفصيلية لإصلاحها.</p>
+        </div>
+        <div class="service-item">
+            <h3>استشارات أمنية</h3>
+            <p>نقدم نصائح وخطط لتعزيز أمان شبكتك وإغلاق الثغرات الحالية.</p>
+        </div>
+        <div class="service-item">
+            <h3>تدريب على الأمان السيبراني</h3>
+            <p>ندرب فريقك على أفضل ممارسات حماية الشبكات وتقنيات الكشف عن الثغرات.</p>
+        </div>
+        <div class="service-item">
+            <h3>تدقيق أمني دوري</h3>
+            <p>نقوم بإجراء تدقيق أمني منتظم لضمان عدم وجود ثغرات جديدة في شبكتك.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>اتصل بنا</h2>
+    <p>للحصول على استشارة أو طلب خدمة، يرجى التواصل معنا عبر البريد الإلكتروني: <a href="mailto:info@cybersecurity.com">info@cybersecurity.com</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2024 أمن الشبكات. جميع الحقوق محفوظة.</p>
+</footer>
+
+</body>
+</html>
